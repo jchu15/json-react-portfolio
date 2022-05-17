@@ -1,11 +1,15 @@
-import { Footer } from "./Components/Footer/Footer";
-import { Navbar } from "./Components/Navbar/Navbar";
+import React from 'react'
+import {Routes, Route} from 'react-router-dom'
 
+import Home from './Pages/Home'
+import { Projects } from './Pages/Projects';
 function App() {
   return (
     <>
-    <Navbar />
-      <Footer/>
+       <Routes>
+        <Route path='/' exact element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+      </Routes>
     </>
   );
 }
