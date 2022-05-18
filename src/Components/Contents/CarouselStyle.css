@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:ital,wght@1,300&display=swap');
+
+
 .hero-img {
     background: rgba(0,0,0,0);
     height: 100vh;
@@ -43,9 +45,16 @@
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
-@media screen and (max-width:640px) {
+@media screen and (max-width:1020px) {
     .carousel-text
     {
-        font-size: 60px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .carousel-job
+    {
+        font-size: 25px;
+        text-align: center;
     }
 }

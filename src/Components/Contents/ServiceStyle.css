@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@200&display=swap');
 .services-box
 {
     margin: auto;
@@ -19,8 +20,9 @@
 }
 .service-item-label
 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 .service-item-icon
 {
@@ -28,10 +30,68 @@
     margin: auto;
     width: 25%;
     border: none;
-    background-color: #EFEAFF;
     padding: 10px;
     border-style: none;
     border-radius: 20px;
     margin-top: 25px;
     margin-bottom: 10px;
+}
+.service-ui
+{
+    background-color: #EFEAFF;
+}
+.service-mobile
+{
+    background-color: #FFE5DA;
+}
+.service-web
+{
+    background: rgba(0, 176, 255, 0.38);
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    .services-box
+    {
+        margin: auto;
+        width: 100%;
+        border-style: none;
+        padding: 50px;
+        box-shadow: none;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .service-item
+    {
+        margin: auto;
+        width: 50%;
+        display: grid;
+        align-items: center;
+    }
+    .service-icon
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .service-item-label
+    {
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .service-item-icon
+    {
+    
+        margin: auto;
+        width: 25%;
+        border: none;
+        padding: 10px;
+        border-style: none;
+        border-radius: 20px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    
 }

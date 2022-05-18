@@ -8,7 +8,7 @@ const services = () => {
     <div className='services-box'>
         <div className='container'>
             <div className='service-item'>
-                <div className='service-item-icon'>
+                <div className='service-item-icon service-ui'>
                     <img className='service-icon' src={UI} alt='ui-ux'/>
                 </div>
                 <div className='service-item-label'>
@@ -17,7 +17,7 @@ const services = () => {
             </div>
 
             <div className='service-item'>
-                <div className='service-item-icon'>
+                <div className='service-item-icon service-web'>
                 <img className='service-icon' src={Web} alt='web development'/>
                 </div>
                 <div className='service-item-label'>
@@ -26,7 +26,7 @@ const services = () => {
             </div>
 
             <div className='service-item'>
-                <div className='service-item-icon'>
+                <div className='service-item-icon service-mobile'>
                 <img className='service-icon' src={Mobile} alt='mobile development'/>
                 </div>
                 <div className='service-item-label'>
