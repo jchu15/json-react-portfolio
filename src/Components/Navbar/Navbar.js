@@ -14,6 +14,7 @@ export const Navbar = () => {
         <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>JSON C.</h1>
         <ul className='hidden md:flex'>
         <li><Link to="/" smooth={true} duration={500}>Home</Link></li>
+        
         <li><Link to="/projects" smooth={true} offset={-200} duration={500}>Projects</Link></li>
         </ul>
       </div>
